@@ -10,7 +10,7 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-user_name = localStorage.getItem("Username",user_name);
+username = localStorage.getItem("Username",user_name);
 document.getElementById("welcome").innerHTML = "Welcome " + user_name +"!";
 
 function enter_room()
